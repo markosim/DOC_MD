@@ -1,4 +1,4 @@
-#iSCSI
+# iSCSI
 
 "Internet SCSI" è un protocollo di comunicazione che permette di inviare comandi a dispositivi di memoria SCSI fisicamente collegati a server e/o altri dispositivi remoti (come ad esempio NAS o SAN). Molto utilizzato in ambienti SAN poiché permette di consolidare l'archiviazione dei dati su dispositivi virtuali, collegati attraverso la rete, dando l'illusione di disporre localmente di un disco fisico che invece si trova in realtà su un dispositivo di storage remoto.
 
@@ -8,7 +8,7 @@ Il client utilizza quindi un driver, detto **initiator**, che consente di inviar
 
 A differenza di nfs o cifs (usate per file/directory sharing) permette di presentare al client delle lun viste come **raw block disk device**. 
 
-###Terminologia:
+### Terminologia:
 
 - **ACL**: access control list per controllare l'accesso a target LUN da parte di client.
 

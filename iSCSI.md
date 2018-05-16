@@ -6,7 +6,7 @@ A differenza del protocollo Fibre Channel consente l'impacchettamento su TCP/IP 
 
 Il client utilizza quindi un driver, detto **initiator**, che consente di inviare all'host dove sono fisicamente ospitati i dischi, detto **target**, i comandi che consentono di leggere e scrivere il disco virtuale. L'initiator tipicamente si identifica tramite un codice alfanumerico, detto **IQN** (acronimo inglese di "**iSCSI Qualified Name**". E' possibile implementare regole di accesso in base all' ip sorgente.
 
-A differenza di nfs o cifs (usate per file/directory sharing) permette di presentare al client delle lun viste come **raw block disk device**. 
+A differenza di nfs o cifs (usate per file/directory sharing) permette di presentare al client delle lun viste come **raw block disk device**. Quindi non come file level storage.
 
 ### Terminologia:
 

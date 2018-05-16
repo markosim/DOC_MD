@@ -1,7 +1,7 @@
-#Ansible howto
+# Ansible howto
 
 
-###Installazione di ansible
+### Installazione di ansible
 
 Il control node può essere un sistema Linux o UNIX. Microsoft Windows non è supportato come control node, sebbene i sistemi Windows possano essere gestiti come host. Deve essere installato ***Python 2*** (almeno 2.6)
 poi basta eseguire
@@ -24,7 +24,7 @@ Host rheltest DEVE essere nell' inventory.
 
 ----------
 
-###Inventario
+### Inventario
 L' inventory statico di default è sotto /etc/ansible/hosts, esempio di inventory statico:
 
 	
@@ -85,7 +85,7 @@ Posso vedere da quali host è composto un gruppo(compresi eventuali childeren gr
 
 ----------
 
-###File di configurazione di ansible:
+### File di configurazione di ansible:
 
 Per vedere il file di configurazione attualmente usato:
 
@@ -141,7 +141,7 @@ Il protocollo di connessione di default ai managed hosts è settato su smart che
 ----------
 
 
-###Playbook
+### Playbook
 
  Playbook sono dei "libri" dai quali Ansible "legge" le istruzioni da eseguire sui nodi destinatari. 
 I Playbook possono anche definire dei ruoli, che eseguiranno altri Playbook per completare la configurazione.
